@@ -1,0 +1,10 @@
+{
+	"authors": ["brian"],
+	"copyright": "Copyright © 2022, brian",
+	"description": "Shared data loading/parsing for IDA (server, client, auto-client)",
+	"license": "proprietary",
+	"name": "datad",
+	"version": "0.1.0",
+	"targetType": "library",
+	"sourcePaths": ["source"]
+}
