@@ -1,4 +1,4 @@
-module fbx;
+module io.fbx;
 
 import std.algorithm;
 import std.conv;
@@ -7,7 +7,7 @@ import std.stdio;
 import std.string;
 import std.typecons : Tuple, tuple;
 
-import geometry : GeometryVertex;
+import model.geometry : GeometryVertex;
 
 enum FBX_BINARY_MAGIC_LEN = 21;
 

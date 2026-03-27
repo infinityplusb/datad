@@ -1,10 +1,10 @@
 /** Parse JPL Horizons vector ephemeris text into plottable entities. */
-module ingest_horizons;
+module ingest.horizons;
 
 import std.conv;
 import std.string;
 
-import plot;
+import model.plot;
 
 private struct HorizonsBody
 {

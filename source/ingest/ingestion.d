@@ -1,7 +1,7 @@
 /**
  * Generic file → $(LINK2 plot.d, PlottableEntity) pipelines. Extend here with new strategies, not per-app loaders.
  */
-module ingest;
+module ingest.ingestion;
 
 import std.algorithm;
 import std.array;
@@ -14,9 +14,9 @@ import std.stdio;
 import std.string;
 import std.process;
 
-import csv_reader;
-import fits;
-import plot;
+import io.csv_reader;
+import io.fits;
+import model.plot;
 
 private string[] splitCsvLine(string ln)
 {

@@ -2,8 +2,9 @@ module io;
 
 public
 {
-    import csv;
-    import fits;
-    import mesh;
-    import format;
+    import io.csv_reader;
+    import io.fits;
+    import io.obj_loader;
+    import io.fbx;
+    import io.data_format;
 }

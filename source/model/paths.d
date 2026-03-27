@@ -1,4 +1,4 @@
-module paths;
+module model.paths;
 
 /** If androidAssetRoot is set and path is under data/, return root/path for on-device assets. */
 string resolveDataPath(string path, string androidAssetRoot)

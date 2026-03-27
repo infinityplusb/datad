@@ -2,9 +2,9 @@
  * Canonical plottable record shared by ida-server and ida-client (local ingest).
  * Renderer-agnostic: no Vulkan or ECS types.
  */
-module plot;
+module model.plot;
 
-import quat_math;
+import model.quat_math;
 
 /// Rotation as quaternion **w, x, y, z** (Hamilton convention; identity **1,0,0,0**).
 struct PlotRotation

@@ -1,12 +1,12 @@
-module data_format;
+module io.data_format;
 
 import std.path : extension;
 import std.string : toLower;
 import std.typecons : Tuple;
 
-import geometry : GeometryVertex;
-import obj_loader : loadObj;
-import fbx : loadFbx;
+import model.geometry : GeometryVertex;
+import io.obj_loader : loadObj;
+import io.fbx : loadFbx;
 
 enum DataFileFormat
 {

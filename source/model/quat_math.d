@@ -1,4 +1,4 @@
-module quat_math;
+module model.quat_math;
 
 import std.math;
 

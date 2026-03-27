@@ -1,4 +1,4 @@
-module fits;
+module io.fits;
 
 import std.stdio;
 import std.regex;

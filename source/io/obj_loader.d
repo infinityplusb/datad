@@ -1,4 +1,4 @@
-module obj_loader;
+module io.obj_loader;
 
 import std.conv : to;
 import std.file : readText;
@@ -7,7 +7,7 @@ import std.stdio;
 import std.string;
 import std.typecons : Tuple, tuple;
 
-import geometry : GeometryVertex;
+import model.geometry : GeometryVertex;
 
 private struct ObjFace
 {

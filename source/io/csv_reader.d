@@ -1,7 +1,7 @@
 /**
  * Quoted-field CSV/TSV reader for generic tabular ingest.
  */
-module csv_reader;
+module io.csv_reader;
 
 import std.file;
 import std.string;

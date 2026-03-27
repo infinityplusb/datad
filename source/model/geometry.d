@@ -1,4 +1,4 @@
-module geometry;
+module model.geometry;
 
 /** Vertex attributes for mesh data from files (OBJ, FBX, etc.). No renderer bindings. */
 struct GeometryVertex

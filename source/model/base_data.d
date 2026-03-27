@@ -1,4 +1,4 @@
-module base_data;
+module model.base_data;
 
 import std.conv;
 import std.file : readText;
